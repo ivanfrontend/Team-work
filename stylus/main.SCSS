@@ -302,11 +302,65 @@ header{
 		}
 
 		/*Конец стилей для кнопки*/
+		/*слайдер в разделе посты*/
+		.wrapp-poct{
+			padding: 40px 0px;
+			.wrapp-slaid{
+				.wrapp-slaid2{
+				cursor: pointer;
+				position: relative;
+				display: inline-block;
+				.bg-img{
+				cursor: pointer;
+				position: absolute;
+				background-color: rgba(0,0,0,.5);
+				width: 100%;
+				min-height: 100%;
+				top: 0px;
+				}
+				p{
+					position: absolute;
+				    top: 130px;
+				    left: 35px;
+				    cursor: pointer;
+				    font-weight: 900;
+				    color: #fff;
+				    font-size: 32px;
+				    margin: 0px;
+				    width: 40%;
+
+				}
+				.wrapp-button-post{
+					a{
+						position: absolute;
+						bottom: 66px;
+    					left: 105px;
+						font-family: 'Roboto Condensed', sans-serif;
+						text-decoration: none;
+						color: #fff;
+						background-color: $colorText;
+						transition: .5s;
+						text-transform: uppercase;
+						font-weight: 600;
+						padding: 10px 15px;
+						font-size: 18px;
+						transition: .5s;
+						&:hover{
+							transition: .5s;
+							padding: 11px 16px;
+							font-size: 19px;
+						}	
+					}
+				}
+				}	
+			}
+			
+		}
+		/*конец слайдер в разделе посты*/
 
 /*footer*/
 
 footer{
-	margin-top: 100px;
 	background-color: $bgFooter;
 	.wrapp-menu-footer{
 		nav{

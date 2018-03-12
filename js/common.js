@@ -71,6 +71,17 @@ var widthBody;
         prevArrow: '<img class="lefts" src="img/backward.png">',  // стрелки
         nextArrow: '<img class="righets" src="img/before.png">'  // стрелки
     });
+
+   jQuery('#slaider-post').slick({
+        // dots: true,
+        autoplay: true,
+        autoplaySpeed:3000,
+        // infinite: true,
+        // slidesToShow: 1,
+        // slidesToScroll: 1,
+        // prevArrow: '<img class="lefts" src="img/backward.png">',  // стрелки
+        // nextArrow: '<img class="righets" src="img/before.png">'  // стрелки
+    });
 });
 
 console.log('111');

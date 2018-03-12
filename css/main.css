@@ -291,9 +291,56 @@ header {
         background-color: #487703; }
 
 /*Конец стилей для кнопки*/
+/*слайдер в разделе посты*/
+.wrapp-poct {
+  padding: 40px 0px; }
+  .wrapp-poct .wrapp-slaid .wrapp-slaid2 {
+    cursor: pointer;
+    position: relative;
+    display: inline-block; }
+    .wrapp-poct .wrapp-slaid .wrapp-slaid2 .bg-img {
+      cursor: pointer;
+      position: absolute;
+      background-color: rgba(0, 0, 0, 0.5);
+      width: 100%;
+      min-height: 100%;
+      top: 0px; }
+    .wrapp-poct .wrapp-slaid .wrapp-slaid2 p {
+      position: absolute;
+      top: 130px;
+      left: 35px;
+      cursor: pointer;
+      font-weight: 900;
+      color: #fff;
+      font-size: 32px;
+      margin: 0px;
+      width: 40%; }
+    .wrapp-poct .wrapp-slaid .wrapp-slaid2 .wrapp-button-post a {
+      position: absolute;
+      bottom: 66px;
+      left: 105px;
+      font-family: 'Roboto Condensed', sans-serif;
+      text-decoration: none;
+      color: #fff;
+      background-color: #6db900;
+      -webkit-transition: .5s;
+      -o-transition: .5s;
+      transition: .5s;
+      text-transform: uppercase;
+      font-weight: 600;
+      padding: 10px 15px;
+      font-size: 18px;
+      transition: .5s; }
+      .wrapp-poct .wrapp-slaid .wrapp-slaid2 .wrapp-button-post a:hover {
+        -webkit-transition: .5s;
+        -o-transition: .5s;
+        transition: .5s;
+        padding: 11px 16px;
+        font-size: 19px; }
+
+/*конец слайдер в разделе посты*/
 /*footer*/
 footer {
-  margin-top: 100px;
   background-color: #5e9f00; }
   footer .wrapp-menu-footer nav ul {
     margin: 0px;
